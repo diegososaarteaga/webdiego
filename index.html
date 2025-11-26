@@ -1,9 +1,108 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
-        <tittle> My Web Page</tittle>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diego - Ingeniero Biomédico | QA Tester</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Welcome to My Web Page</h1>
-        <p>This is a simple web page.</p>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Diego</div>
+                <ul class="nav-links">
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="container">
+                <h1>Hola, soy Diego</h1>
+                <p class="subtitle">Ingeniero Biomédico | QA Tester en NTT Data</p>
+                <button class="cta-button">Descarga mi CV</button>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Acerca de mí</h2>
+                <div class="about-content">
+                    <p>
+                        Soy Ingeniero Biomédico con experiencia en garantía de calidad (QA Testing). 
+                        Actualmente trabajo en <strong>NTT Data</strong>, donde me especializo en pruebas de software, 
+                        asegurando que los productos cumplan con los más altos estándares de calidad.
+                    </p>
+                    <p>
+                        Mi formación en ingeniería biomédica me proporciona una perspectiva única en testing, 
+                        especialmente en aplicaciones críticas para la salud y sistemas que requieren precisión extrema.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experiencia Profesional</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>QA Tester</h3>
+                            <p class="company">NTT Data</p>
+                            <p class="description">
+                                Realizo pruebas funcionales, regresión y validación de software. 
+                                Identifico y documento defectos, asegurando que los productos 
+                                cumplan con los requisitos de calidad establecidos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Testing</h3>
+                        <p>Pruebas funcionales, regresión, integración y end-to-end</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Herramientas QA</h3>
+                        <p>Selenium, JIRA, TestRail, Postman</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Análisis</h3>
+                        <p>Análisis de requerimientos, reportes de defectos detallados</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Biomedicina</h3>
+                        <p>Conocimiento en sistemas médicos y dispositivos sanitarios</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Interesado en colaborar? Contáctame en:</p>
+                <div class="contact-links">
+                    <a href="mailto:diego@example.com" class="contact-button">Email</a>
+                    <a href="https://linkedin.com" class="contact-button">LinkedIn</a>
+                    <a href="https://github.com" class="contact-button">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Diego. Todos los derechos reservados.</p>
+            </div>
+        </footer>
     </body>
 </html>
