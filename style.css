@@ -159,11 +159,12 @@ body {
 
 .timeline-item {
     background-color: var(--card-background);
-    padding: 2rem;
+    padding: 2.2rem;
     border-radius: 12px;
     border-left: 4px solid var(--primary-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 40px;
 }
 
 .timeline-item:hover {
@@ -186,6 +187,10 @@ body {
 .timeline-content .description {
     color: var(--light-text);
     line-height: 1.8;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0; /* evita espacio extra al final */
 }
 
 /* Skills Section */
