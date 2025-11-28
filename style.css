@@ -110,6 +110,10 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.highlight {
+    color: var(--accent-color);
+}
+
 /* About Section */
 .about {
     padding: 80px 20px;
